@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e88f1f9-064a-4194-82f3-831c450f742a" name="Default" comment="jdd B" />
+    <list default="true" id="5e88f1f9-064a-4194-82f3-831c450f742a" name="Default" comment="jdd B">
+      <change beforePath="" afterPath="$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/result/count.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/result/test.csv" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +27,7 @@
         <option value="$PROJECT_DIR$/京东金融-信贷需求预测/B-klyan/lr_xgb_ensamble.py" />
         <option value="$PROJECT_DIR$/京东金融-信贷需求预测/B-klyan/stacking.py" />
         <option value="$PROJECT_DIR$/京东金融-信贷需求预测/B-klyan/useless.py" />
+        <option value="$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/my_poly_xgb.py" />
       </list>
     </option>
   </component>
@@ -64,7 +68,7 @@
             <path>
               <item name="DataGameGit" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataGameGit" type="462c0819:PsiDirectoryNode" />
-              <item name="京东金融-信贷需求预测" type="462c0819:PsiDirectoryNode" />
+              <item name="DataCastle-精品旅行服务成单预测（皇包车）" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -78,6 +82,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Learn\12-DataGame\DataGameGit\DataCastle-精品旅行服务成单预测（皇包车）\S-stormstone\result" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,6 +236,100 @@
         <state relative-caret-position="1434">
           <caret line="1425" column="57" lean-forward="true" selection-start-line="1425" selection-start-column="57" selection-end-line="1425" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/time_left.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-1916">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21624">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/learn_error.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/my_poly_lgb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/my_poly_xgb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1212">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/result/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/my_polynomial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/result/count.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/mytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
