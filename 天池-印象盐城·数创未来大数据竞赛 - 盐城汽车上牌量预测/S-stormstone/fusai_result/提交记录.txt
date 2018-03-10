@@ -1,0 +1,76 @@
+==========================================================================================
+2018-03-02：
+    特征：date,brand,day_of_week,month,year,day
+    方法：xgboost
+    参数：
+        split_num = 8500
+        model = xgb.XGBRegressor(max_depth=10,
+                         learning_rate=0.01,
+                         n_estimators=10000,
+                         silent=True,
+                         objective='reg:linear',
+                         nthread=-1,
+                         gamma=0,
+                         min_child_weight=1,
+                         max_delta_step=0,
+                         subsample=0.85,
+                         colsample_bytree=0.7,
+                         colsample_bylevel=1,
+                         reg_alpha=0,
+                         reg_lambda=1,
+                         scale_pos_weight=1,
+                         seed=1440,
+                         missing=None,
+                         verbose=True
+                         )
+
+    成绩： 77 / 46703.95
+==========================================================================================
+2018-02-28：
+    特征：date,brand,day_of_week,month,year,day
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.06,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.5,
+            'num_leaves': 256,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.9,
+            'bagging_fraction': 0.8,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+            'is_unbalance': True
+        }
+    线下得分 kflod：    19172.507682276017
+    线下得分 split：    16434.49722377151
+
+    成绩： 74 / 49821.71
+==========================================================================================
+2018-02-27：
+    特征：date,brand,day_of_week,month,year,day
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.06,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.5,
+            'num_leaves': 256,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.9,
+            'bagging_fraction': 0.8,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+            'is_unbalance': True
+        }
+    线下得分 kflod：    19322.888852102806
+    线下得分 split：    16773.132635532354
+
+    成绩： 39 / 49486.49
+==========================================================================================

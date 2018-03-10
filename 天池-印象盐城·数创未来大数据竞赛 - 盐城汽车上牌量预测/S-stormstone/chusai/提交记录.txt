@@ -1,0 +1,198 @@
+﻿==========================================================================================
+2018-02-26：
+    特征：date,day_of_week,month,year,day
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.01,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.5,
+            'num_leaves': 256,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.9,
+            'bagging_fraction': 0.8,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+            'is_unbalance': True
+        }
+    线下得分 kflod：    647870.1618152879
+    线下得分 split：    690109.2282852298
+    线下得分 resultA：    807155.6777764732
+
+    成绩： 95 /
+==========================================================================================
+2018-02-25：
+    特征：date,day_of_week,month,year,day
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.01,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.5,
+            'num_leaves': 256,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.9,
+            'bagging_fraction': 0.8,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+            'is_unbalance': True
+        }
+    线下得分 kflod：    639791.2981157703
+    线下得分 split：    698185.8619635827
+    线下得分 resultA：    787659.5690057284
+
+    成绩： 64 / 665807.7610
+==========================================================================================
+                                B榜
+==========================================================================================
+
+
+
+
+
+
+
+
+==========================================================================================
+                                A榜
+==========================================================================================
+2018-02-24：
+    特征：
+    方法：other05
+    参数：
+    成绩： 106(淘汰未认证后)/ 1157860.2101
+==========================================================================================
+2018-02-23：
+    特征：
+    方法：other03
+    参数：
+    成绩：133 / 872638.4167
+==========================================================================================
+2018-02-17（02）：
+    特征：date,day_of_week,cnt,cycle2,cycle5,cycle5_2,cycle10
+        poly:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,cnt,date,day_of_week
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.06,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.7,
+            'num_leaves': 256,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.9,
+            'bagging_fraction': 0.8,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+            'is_unbalance': True
+        }
+    线下得分 kflod：    658979.3235722053
+    线下得分 split：    433605.6708310024
+    成绩： 248 / 933493.1341
+==========================================================================================
+2018-02-17：
+    特征：date,day_of_week,cnt,cycle2,cycle5,cycle5_2,cycle10
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.06,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.7,
+            'num_leaves': 256,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.9,
+            'bagging_fraction': 0.8,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+            'is_unbalance': True
+        }
+    线下得分 kflod：    655302.0089995434
+    线下得分 split：    471180.8251793929
+    成绩： 239 / 970797.1232
+==========================================================================================
+2018-01-22：
+    特征：date,day_of_week,cnt,cycle2,
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.01,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.7,
+            'num_leaves': 60,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.7,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+        }
+    成绩：71 / 937022.3370
+==========================================================================================
+2018-01-21：
+    特征：date,day_of_week,cnt,cycle1,cycle2,cycle3,cycle4,cycle5
+    方法：xgboost+手工
+    参数：
+    成绩：41 / 1149810.9746
+==========================================================================================
+2018-01-20：
+    特征：date,day_of_week,cnt,cycle1,cycle2,cycle3,cycle4,cycle5
+    方法：xgboost
+    参数：
+        model = xgb.XGBRegressor(n_estimators=120, learning_rate=0.08, gamma=0, subsample=0.5,
+                         colsample_bytree=0.9, max_depth=10)
+    成绩：30 / 1302628.3659
+==========================================================================================
+2018-01-19：
+    特征：date,day_of_week,cnt,cycle1,cycle2,cycle3,cycle4,cycle5,
+            cycle6,cycle7,cycle8,cycle9,cycle10
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.01,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.7,
+            'num_leaves': 60,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.7,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+        }·
+    成绩：27 / 949201.5906
+==========================================================================================
+2018-01-18：
+    特征：date,day_of_week,cnt,cycle1,cycle2,cycle3,cycle4,cycle5
+    方法：lightgbm
+    参数：
+        params = {
+            'learning_rate': 0.01,
+            'boosting_type': 'gbdt',
+            'objective': 'regression',
+            'metric': 'mse',
+            'sub_feature': 0.7,
+            'num_leaves': 60,
+            'colsample_bytree': 0.7,
+            'feature_fraction': 0.7,
+            'min_data': 100,
+            'min_hessian': 1,
+            'verbose': -1,
+        }·
+    成绩：18 / 945569.22
+
+==========================================================================================
+                                A榜
+==========================================================================================
