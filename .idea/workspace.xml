@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e88f1f9-064a-4194-82f3-831c450f742a" name="Default" comment="jdd B">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/result/count.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DataCastle-精品旅行服务成单预测（皇包车）/S-stormstone/result/test.csv" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,11 +63,6 @@
             <path>
               <item name="DataGameGit" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataGameGit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataGameGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataGameGit" type="462c0819:PsiDirectoryNode" />
-              <item name="DataCastle-精品旅行服务成单预测（皇包车）" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
